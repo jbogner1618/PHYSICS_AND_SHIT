@@ -1,0 +1,54 @@
+
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\usepackage{booktabs}
+\geometry{margin=1in}
+
+\title{SO(10) $\rightarrow$ Standard Model Breaking Chain}
+\author{Pelican's Perspective Mapping Project}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{1. Symmetry Breaking Sequence}
+\[
+SO(10) 
+\;\xrightarrow{\;\langle 45_H\rangle\;} 
+SU(5)\times U(1)_\chi 
+\;\xrightarrow{\;\langle 16_H\rangle,\langle\overline{16}_H\rangle\;} 
+SU(3)_C\times SU(2)_L\times U(1)_Y
+\]
+
+\begin{itemize}
+  \item $\langle 45_H\rangle \propto \mathrm{diag}(1,1,1,1,1,-1,-1,-1,-1,-1)$ breaks the vector representation and preserves $SU(5)\times U(1)_\chi$.
+  \item $\langle 16_H\rangle$ and $\langle \overline{16}_H\rangle$ carry $U(1)_\chi$ charge and reduce the rank by one, leaving the Standard Model gauge group.
+\end{itemize}
+
+\section*{2. Generator Decomposition}
+\begin{center}
+\begin{tabular}{ll}
+\toprule
+SO(10) Generator & SM Interpretation \\
+\midrule
+$T^{a}_{SU(3)}$ ($a=1\ldots 8$) & Color $SU(3)_C$ \\
+$T^{i}_{SU(2)}$ ($i=1,2,3$) & Weak $SU(2)_L$ \\
+$Y = \frac{1}{\sqrt{60}}\mathrm{diag}(2,2,2,-3,-3)$ & Hypercharge $U(1)_Y$ \\
+$X = U(1)_\chi$ & Broken by $16_H$ VEV \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section*{3. Higgs Content}
+\begin{itemize}
+  \item \textbf{$45_H$}: Adjoint, initiates first stage SSB.
+  \item \textbf{$16_H$ + $\overline{16}_H$}: Spinor reps, break to SM; contain right-handed neutrino singlets.
+  \item \textbf{$10_H$}: Provides electroweak Higgs doublet after projection onto SM.
+\end{itemize}
+
+\section*{4. Vacuum Alignment}
+The adjoint VEV selects a $B-L$ direction, while the spinor VEV aligns along a SM singlet component, giving masses to right-handed neutrinos and enabling the seesaw.
+
+\end{document}
