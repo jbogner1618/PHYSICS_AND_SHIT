@@ -1,15 +1,17 @@
-# AI Agent Instructions for Physics & Theoretical Research Workspace
+# AI Agent Instructions for Theoretical Physics Research Workspace
 
-This workspace contains theoretical physics research, computational implementations, and documentation related to a novel framework called the Coherence-Modulated Ψ-Field theory. The work spans multiple interconnected projects that explore consciousness, quantum physics, field theory, and cosmological models.
+This workspace contains **theoretical physics research** presented as sophisticated thought experiments for academic engagement. The repository explores novel approaches to fundamental physics through the lens of a proposed Coherence-Modulated Ψ-Field theory framework.
 
 ## Project Overview
 
-The core hypothesis is that a fundamental scalar field (Ψ-field) underlies reality, which can be modulated by observer coherence. This leads to a "Physics of Participation" where observer coherence influences physical systems through modulation of soliton-like excitations in this field.
+The repository is organized as a professional academic research collection focusing on speculative theoretical physics. The core hypothesis explores whether observer coherence might influence physical systems through modulation of underlying field structures. All work is framed as theoretical speculation requiring rigorous validation.
 
-Major components:
-1. **Theoretical frameworks** in LaTeX (mathematical models, field equations, Lagrangians)
-2. **Python simulations** (quantum system models, coherence effects)
-3. **Documentation** (briefing documents, notes, transcripts)
+**Repository Structure:**
+1. **`theory/`** - LaTeX theoretical frameworks (field equations, mathematical models)
+2. **`simulations/`** - Python quantum simulations and computational models  
+3. **`docs/`** - Project briefings and documentation
+4. **`supporting-materials/`** - Transcripts, notes, and supplementary materials
+5. **`archive/`** - Working drafts and historical development materials
 
 ## Critical Concepts
 
@@ -19,11 +21,19 @@ Major components:
 - **Solitons**: Particle-like stable excitations in the Ψ-field
 - **Hypercausal Dynamics**: Signal propagation faster than light speed (c ≪ C)
 
+## Critical Concepts
+
+- **Ψ-Field**: Hypothetical scalar field proposed as substrate for physical phenomena
+- **Observer Coherence (ρ_obs)**: Quantifiable measure of structured informational activity
+- **Coherence-Modulation**: Proposed mechanism for observer influence on field dynamics
+- **Soliton Excitations**: Particle-like stable excitations in the Ψ-field substrate
+- **Hypercausal Dynamics**: Theoretical signal propagation faster than light speed (c ≪ C)
+
 ## Code Structure and Patterns
 
 ### Python Simulations
-- `QCAP_main_simulation.py`: Primary quantum simulation using Qiskit 
-- `QCAP_secondary_simulation.py`: Extended lab simulation framework
+- `simulations/coherence_quantum_simulation.py`: Primary quantum coherence simulation using Qiskit 2.x
+- `simulations/extended_lab_simulation.py`: Extended laboratory simulation framework with Rich interface
 
 Key patterns:
 ```python
@@ -51,43 +61,73 @@ chsh.measure(range(4), range(4))
 ```
 
 ### LaTeX Structure
-- Each theoretical component has its own directory with `main.tex`
-- Mathematical notation follows specific conventions (see `Hyperchronal Ontology-Inversion/main.tex`)
+- Each theoretical component has its own directory in `theory/` with `main.tex`
+- Organized by theoretical focus: field theory, ontology, participatory physics, etc.
+- Mathematical notation follows established physics conventions
 
 ## Development Workflow
 
 1. **Running Simulations**: 
    ```bash
-   python QCAP_main_simulation.py  # Basic CHSH test simulation
-   python QCAP_secondary_simulation.py  # Extended lab simulation
+   python simulations/coherence_quantum_simulation.py    # Primary CHSH test simulation
+   python simulations/extended_lab_simulation.py        # Extended lab framework
    ```
 
 2. **Editing Theory Documents**:
-   - LaTeX files in their respective project directories
-   - Follow mathematical notation conventions established in existing files
+   - LaTeX files organized in `theory/` subdirectories by topic
+   - Follow mathematical notation conventions established in existing documents
+   - Maintain theoretical coherence across interconnected frameworks
 
-3. **Project Integration**:
-   - New theoretical components should connect to the core Ψ-Field framework
-   - Python simulations should reference theoretical parameters
+3. **Documentation Access**:
+   - Start with `README.md` for overview and navigation
+   - Consult `FILE_INDEX.md` for comprehensive file descriptions
+   - Review `docs/nexus_briefing_main.md` for theoretical introduction
 
 ## Key Integration Points
 
 1. **Theory to Simulation**: Mathematical models from LaTeX documents inform simulation parameters
 2. **Coherence Parameter**: Central to all models - connects observer effects to physical systems
-3. **Cross-project References**: Many documents reference concepts from other components
+3. **Academic Framing**: All work presented as theoretical speculation requiring validation
+4. **Cross-project References**: Theoretical frameworks reference concepts across multiple documents
+
+## Academic Engagement Guidelines
+
+This repository is structured for safe academic engagement:
+
+1. **Theoretical Context**: All proposals framed as speculative thought experiments
+2. **Professional Safety**: Clear disclaimers and academic framing throughout  
+3. **Rigorous Standards**: Emphasis on falsifiability and experimental validation requirements
+4. **Scholarly Discussion**: Designed to stimulate academic conversation without career risk
 
 ## Specific Conventions
 
-1. **Unicode in Code**: Use full unicode where appropriate for mathematical symbols
-2. **Documentation Style**: Detailed docstrings that explain both implementation and theoretical foundation
-3. **Variable Naming**: Physics notation (ρ, Ψ, α) when representing the corresponding physical quantities
+1. **File Organization**: Logical grouping by content type (theory, simulations, docs, etc.)
+2. **Professional Naming**: Consistent kebab-case for directories, descriptive filenames
+3. **Unicode in Code**: Use unicode mathematical symbols appropriately (ρ, Ψ, α)
+4. **Documentation Style**: Comprehensive docstrings explaining both implementation and theory
+5. **Academic Tone**: Professional presentation suitable for academic review
 
 ## External Dependencies
 
 - Python 3.9+
-- Qiskit 2.x+ and qiskit-aer
-- NumPy
-- LaTeX with AMS packages
-- Rich (for console output in lab simulations)
+- Qiskit 2.x+ and qiskit-aer (auto-installed by simulations)
+- NumPy (auto-installed)
+- Rich (for enhanced console output in extended simulations)
+- LaTeX with AMS packages (for theory documents)
 
-When extending or modifying code, maintain the theoretical integrity of the research concepts while improving implementation quality.
+## Navigation and File Structure
+
+- **`README.md`** - Main repository overview and navigation guide
+- **`FILE_INDEX.md`** - Comprehensive index of all files with descriptions
+- **`theory/`** - Organized theoretical frameworks by topic
+- **`simulations/`** - Quantum simulation implementations
+- **`docs/`** - Project documentation and briefings
+- **`supporting-materials/`** - Transcripts, notes, implementation details
+- **`archive/`** - Historical development materials and working files
+
+When extending or modifying this codebase:
+1. Maintain the theoretical integrity of the research concepts
+2. Follow established file organization patterns
+3. Preserve academic framing and professional presentation
+4. Ensure new contributions connect appropriately to existing frameworks
+5. Update FILE_INDEX.md when adding new files
